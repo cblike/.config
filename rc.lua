@@ -98,11 +98,11 @@ awful.spawn.with_shell(
 -- keep themes in alfabetical order for ATT
 local themes = {
     "blackburn",		-- 1
-    "copland",      	-- 2
+    "copland",      	        -- 2
     "multicolor",	 	-- 3
     "powerarrow",		-- 4
-    "powerarrow-blue",  -- 5
-    "powerarrow-dark",  -- 6
+    "powerarrow-blue",          -- 5
+    "powerarrow-dark",          -- 6
 }
 
 -- choose your theme here
@@ -118,16 +118,16 @@ local modkey1      = "Control"
 
 -- personal variables
 --change these variables if you want
-local browser1          = "vivaldi-stable"
+local browser1          = "chromium -no-default-browser-check"
 local browser2          = "firefox"
-local browser3          = "chromium -no-default-browser-check"
-local editor            = os.getenv("EDITOR") or "nano"
-local editorgui         = "atom"
-local filemanager       = "thunar"
-local mailclient        = "evolution"
+local browser3          = "vivaldi"
+local editor            = "nano"
+local editorgui         = "kate"
+local filemanager       = "dolphin"
+local mailclient        = "thunderbird"
 local mediaplayer       = "spotify"
 local terminal          = "alacritty"
-local virtualmachine    = "virtualbox"
+--local virtualmachine    = "virtualbox"
 
 -- awesome variables
 awful.util.terminal = terminal
